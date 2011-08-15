@@ -1,0 +1,280 @@
+>0-A.r [5'-3'] (Tm=70.5; dG_hairpin=-5.3)
+TAGATTCTTGACAACAGGAGGAAACGAAGTCAGTACAGATctgccgcggccgctactagca
+>0-B.f [5'-3'] (Tm=70.5; dG_hairpin=-5.3)
+ATCTGTACTGACTTCGTTTCCTCCTGTTGTCAAGAATCTAcaattcgcggccgctgctag
+>1-A.r [5'-3'] (Tm=77.3; dG_hairpin=-4.6)
+TGTCCGAACTGTACTGTGTAAGAGCGCGTGGGGGTATTGGctgccgcggccgctactagca
+>1-B.f [5'-3'] (Tm=77.3; dG_hairpin=-4.6)
+CCAATACCCCCACGCGCTCTTACACAGTACAGTTCGGACAcaattcgcggccgctgctag
+>2-A.r [5'-3'] (Tm=68.4; dG_hairpin=-5.0)
+TCTCGTGAGAATCTTCTGTTTAGGTACACCAATATTGAATctgccgcggccgctactagca
+>2-B.f [5'-3'] (Tm=68.4; dG_hairpin=-5.0)
+ATTCAATATTGGTGTACCTAAACAGAAGATTCTCACGAGAcaattcgcggccgctgctag
+>3-A.r [5'-3'] (Tm=65.3; dG_hairpin=-4.7)
+TTTCGAATACGAGTATAATAACTTAAAATCAAGGAGTGTTctgccgcggccgctactagca
+>3-B.f [5'-3'] (Tm=65.3; dG_hairpin=-4.7)
+AACACTCCTTGATTTTAAGTTATTATACTCGTATTCGAAAcaattcgcggccgctgctag
+>4-A.r [5'-3'] (Tm=64.9; dG_hairpin=-5.1)
+GAACTTGGATATTATATCTTTATCAGGATCTAGCTTCAATctgccgcggccgctactagca
+>4-B.f [5'-3'] (Tm=64.9; dG_hairpin=-5.1)
+ATTGAAGCTAGATCCTGATAAAGATATAATATCCAAGTTCcaattcgcggccgctgctag
+>5-A.r [5'-3'] (Tm=78.6; dG_hairpin=-5.6)
+TGTGCCAGGGGGTAATCGGGGTGTGTCTCTTGTTCTGGTGctgccgcggccgctactagca
+>5-B.f [5'-3'] (Tm=78.6; dG_hairpin=-5.6)
+CACCAGAACAAGAGACACACCCCGATTACCCCCTGGCACAcaattcgcggccgctgctag
+>6-A.r [5'-3'] (Tm=69.9; dG_hairpin=-3.4)
+AGTGTAGAGTGACCTGGAGAATTTGGGGATTTAATTGAATctgccgcggccgctactagca
+>6-B.f [5'-3'] (Tm=69.9; dG_hairpin=-3.4)
+ATTCAATTAAATCCCCAAATTCTCCAGGTCACTCTACACTcaattcgcggccgctgctag
+>7-A.r [5'-3'] (Tm=68.6; dG_hairpin=-5.8)
+TGGTAAAAGTCTTCCCTTTAGCTCTCTGTGTACTATAGATctgccgcggccgctactagca
+>7-B.f [5'-3'] (Tm=68.6; dG_hairpin=-5.8)
+ATCTATAGTACACAGAGAGCTAAAGGGAAGACTTTTACCAcaattcgcggccgctgctag
+>8-A.r [5'-3'] (Tm=76.9; dG_hairpin=-5.9)
+GGAAACACGTTCTATTGGCGGTGGGTGACTTTACGCAGGActgccgcggccgctactagca
+>8-B.f [5'-3'] (Tm=76.9; dG_hairpin=-5.9)
+TCCTGCGTAAAGTCACCCACCGCCAATAGAACGTGTTTCCcaattcgcggccgctgctag
+>9-A.r [5'-3'] (Tm=68.3; dG_hairpin=-5.8)
+AAGCTATAACTCTCTCCTTTAGTTGACAAGTCGGAAATTActgccgcggccgctactagca
+>9-B.f [5'-3'] (Tm=68.3; dG_hairpin=-5.8)
+TAATTTCCGACTTGTCAACTAAAGGAGAGAGTTATAGCTTcaattcgcggccgctgctag
+>10-A.r [5'-3'] (Tm=69.9; dG_hairpin=-5.2)
+TTATCAGTGGTGAGTGTACTACAGTAAGCCAATTTATCCCctgccgcggccgctactagca
+>10-B.f [5'-3'] (Tm=69.9; dG_hairpin=-5.2)
+GGGATAAATTGGCTTACTGTAGTACACTCACCACTGATAAcaattcgcggccgctgctag
+>11-A.r [5'-3'] (Tm=67.7; dG_hairpin=-5.9)
+TATATCTTGTCTATTCTTTGAACCAAGGTTAAAGGAGTGGctgccgcggccgctactagca
+>11-B.f [5'-3'] (Tm=67.7; dG_hairpin=-5.9)
+CCACTCCTTTAACCTTGGTTCAAAGAATAGACAAGATATAcaattcgcggccgctgctag
+>12-A.r [5'-3'] (Tm=71.3; dG_hairpin=-5.9)
+GTTGTCGGGTCTCCTTGTTTACAGCTTGATAACTTTTAGGctgccgcggccgctactagca
+>12-B.f [5'-3'] (Tm=71.3; dG_hairpin=-5.9)
+CCTAAAAGTTATCAAGCTGTAAACAAGGAGACCCGACAACcaattcgcggccgctgctag
+>13-A.r [5'-3'] (Tm=71.6; dG_hairpin=-3.1)
+GAAATTTGAGGGAGTTAGAGAACTGGACGGGTATCTTCTGctgccgcggccgctactagca
+>13-B.f [5'-3'] (Tm=71.6; dG_hairpin=-3.1)
+CAGAAGATACCCGTCCAGTTCTCTAACTCCCTCAAATTTCcaattcgcggccgctgctag
+>14-A.r [5'-3'] (Tm=69.6; dG_hairpin=-5.5)
+GGGAATCCGAGCTGGAGAAAATAAACGTAAGTAATAGAAGctgccgcggccgctactagca
+>14-B.f [5'-3'] (Tm=69.6; dG_hairpin=-5.5)
+CTTCTATTACTTACGTTTATTTTCTCCAGCTCGGATTCCCcaattcgcggccgctgctag
+>15-A.r [5'-3'] (Tm=69.4; dG_hairpin=-5.4)
+TGATTTATCCCCCTATCTCCTAATAATCGTTCTGAAGGTGctgccgcggccgctactagca
+>15-B.f [5'-3'] (Tm=69.4; dG_hairpin=-5.4)
+CACCTTCAGAACGATTATTAGGAGATAGGGGGATAAATCAcaattcgcggccgctgctag
+>16-A.r [5'-3'] (Tm=70.3; dG_hairpin=-4.2)
+TTTACTTTGGGAATAACCTTTAGCTGTCGTAGGGAGTCTActgccgcggccgctactagca
+>16-B.f [5'-3'] (Tm=70.3; dG_hairpin=-4.2)
+TAGACTCCCTACGACAGCTAAAGGTTATTCCCAAAGTAAAcaattcgcggccgctgctag
+>17-A.r [5'-3'] (Tm=68.9; dG_hairpin=-3.9)
+TGGTGCAACGTCCTCAGATAGTAATTATTATTTGGTTGATctgccgcggccgctactagca
+>17-B.f [5'-3'] (Tm=68.9; dG_hairpin=-3.9)
+ATCAACCAAATAATAATTACTATCTGAGGACGTTGCACCAcaattcgcggccgctgctag
+>18-A.r [5'-3'] (Tm=73.7; dG_hairpin=-5.6)
+GGACGAGAAAATCGGAATATTGGAACTGAGTCACCGGAGActgccgcggccgctactagca
+>18-B.f [5'-3'] (Tm=73.7; dG_hairpin=-5.6)
+TCTCCGGTGACTCAGTTCCAATATTCCGATTTTCTCGTCCcaattcgcggccgctgctag
+>19-A.r [5'-3'] (Tm=70.0; dG_hairpin=-3.0)
+ACAGTGAGGGATAGATAAGGAAAATCGAAACGTAAGTAGCctgccgcggccgctactagca
+>19-B.f [5'-3'] (Tm=70.0; dG_hairpin=-3.0)
+GCTACTTACGTTTCGATTTTCCTTATCTATCCCTCACTGTcaattcgcggccgctgctag
+>20-A.r [5'-3'] (Tm=75.4; dG_hairpin=-5.8)
+TGGCAGGGGGCGGAGTACAAGAATTGAGATTGTCTTTACGctgccgcggccgctactagca
+>20-B.f [5'-3'] (Tm=75.4; dG_hairpin=-5.8)
+CGTAAAGACAATCTCAATTCTTGTACTCCGCCCCCTGCCAcaattcgcggccgctgctag
+>21-A.r [5'-3'] (Tm=65.5; dG_hairpin=-4.1)
+GATTTTGGCTTTATTAGGTTTCTAAACTTGATTCTATCTGctgccgcggccgctactagca
+>21-B.f [5'-3'] (Tm=65.5; dG_hairpin=-4.1)
+CAGATAGAATCAAGTTTAGAAACCTAATAAAGCCAAAATCcaattcgcggccgctgctag
+>22-A.r [5'-3'] (Tm=71.2; dG_hairpin=-5.9)
+TTTAATAGTGCGTCTAGCTCGTTCCAAATAGGTTCGTGAActgccgcggccgctactagca
+>22-B.f [5'-3'] (Tm=71.2; dG_hairpin=-5.9)
+TTCACGAACCTATTTGGAACGAGCTAGACGCACTATTAAAcaattcgcggccgctgctag
+>23-A.r [5'-3'] (Tm=68.2; dG_hairpin=-5.2)
+GCGTATTTCCGTATAGAACTTGAGAGTTGAAACTTGATAActgccgcggccgctactagca
+>23-B.f [5'-3'] (Tm=68.2; dG_hairpin=-5.2)
+TTATCAAGTTTCAACTCTCAAGTTCTATACGGAAATACGCcaattcgcggccgctgctag
+>24-A.r [5'-3'] (Tm=72.6; dG_hairpin=-5.9)
+GGTATATCGTGCTACGTCTCGTTAAGTTTGATCGGCTTGActgccgcggccgctactagca
+>24-B.f [5'-3'] (Tm=72.6; dG_hairpin=-5.9)
+TCAAGCCGATCAAACTTAACGAGACGTAGCACGATATACCcaattcgcggccgctgctag
+>25-A.r [5'-3'] (Tm=73.2; dG_hairpin=-5.0)
+TTTGACTGTTGGTGTGAGGAACTTATCGGAGGGACCTTTActgccgcggccgctactagca
+>25-B.f [5'-3'] (Tm=73.2; dG_hairpin=-5.0)
+TAAAGGTCCCTCCGATAAGTTCCTCACACCAACAGTCAAAcaattcgcggccgctgctag
+>26-A.r [5'-3'] (Tm=72.7; dG_hairpin=-4.4)
+AACTTGTGCAAGGGTAATCAGAAGAGTGGTAAGTACGACGctgccgcggccgctactagca
+>26-B.f [5'-3'] (Tm=72.7; dG_hairpin=-4.4)
+CGTCGTACTTACCACTCTTCTGATTACCCTTGCACAAGTTcaattcgcggccgctgctag
+>27-A.r [5'-3'] (Tm=70.3; dG_hairpin=-4.4)
+TACGAGTGACTTTCAAACTTTCTGAAGTTAAGTGGTGTGTctgccgcggccgctactagca
+>27-B.f [5'-3'] (Tm=70.3; dG_hairpin=-4.4)
+ACACACCACTTAACTTCAGAAAGTTTGAAAGTCACTCGTAcaattcgcggccgctgctag
+>28-A.r [5'-3'] (Tm=68.2; dG_hairpin=-5.0)
+GTACTTAGGGGTACAAGACTTCAACAAGATTACTTTACACctgccgcggccgctactagca
+>28-B.f [5'-3'] (Tm=68.2; dG_hairpin=-5.0)
+GTGTAAAGTAATCTTGTTGAAGTCTTGTACCCCTAAGTACcaattcgcggccgctgctag
+>29-A.r [5'-3'] (Tm=70.0; dG_hairpin=-2.6)
+TGTGCAGAGGGGGAAGGTAATTGGAAGATTAAGATTAAATctgccgcggccgctactagca
+>29-B.f [5'-3'] (Tm=70.0; dG_hairpin=-2.6)
+ATTTAATCTTAATCTTCCAATTACCTTCCCCCTCTGCACAcaattcgcggccgctgctag
+>30-A.r [5'-3'] (Tm=70.6; dG_hairpin=-3.4)
+GTTGAATTAAGAGAGGAGGGAGAGATATATTTTGTCGGCGctgccgcggccgctactagca
+>30-B.f [5'-3'] (Tm=70.6; dG_hairpin=-3.4)
+CGCCGACAAAATATATCTCTCCCTCCTCTCTTAATTCAACcaattcgcggccgctgctag
+>31-A.r [5'-3'] (Tm=70.9; dG_hairpin=-3.4)
+TGTTGAAATAATACTTGAAAGTGAATCAGCGAGGGAGAGCctgccgcggccgctactagca
+>31-B.f [5'-3'] (Tm=70.9; dG_hairpin=-3.4)
+GCTCTCCCTCGCTGATTCACTTTCAAGTATTATTTCAACAcaattcgcggccgctgctag
+>32-A.r [5'-3'] (Tm=77.7; dG_hairpin=-5.8)
+ACTGGGAGACGGTGGGGAGTTACGTAGACGTCTTTGGCAActgccgcggccgctactagca
+>32-B.f [5'-3'] (Tm=77.7; dG_hairpin=-5.8)
+TTGCCAAAGACGTCTACGTAACTCCCCACCGTCTCCCAGTcaattcgcggccgctgctag
+>33-A.r [5'-3'] (Tm=67.8; dG_hairpin=-4.7)
+GGATTTTAGTTAACCGACAAGCGTGTTTAAGTTTAAGTAActgccgcggccgctactagca
+>33-B.f [5'-3'] (Tm=67.8; dG_hairpin=-4.7)
+TTACTTAAACTTAAACACGCTTGTCGGTTAACTAAAATCCcaattcgcggccgctgctag
+>34-A.r [5'-3'] (Tm=68.1; dG_hairpin=-5.7)
+TAGGAGAAATAGGAAAGACACCTAAAGTATACGATTGGAGctgccgcggccgctactagca
+>34-B.f [5'-3'] (Tm=68.1; dG_hairpin=-5.7)
+CTCCAATCGTATACTTTAGGTGTCTTTCCTATTTCTCCTAcaattcgcggccgctgctag
+>35-A.r [5'-3'] (Tm=69.4; dG_hairpin=-3.7)
+ATTGGTGTAATACTTACGTGATTTGAGATCGTTGGTCTTCctgccgcggccgctactagca
+>35-B.f [5'-3'] (Tm=69.4; dG_hairpin=-3.7)
+GAAGACCAACGATCTCAAATCACGTAAGTATTACACCAATcaattcgcggccgctgctag
+>36-A.r [5'-3'] (Tm=69.5; dG_hairpin=-5.6)
+ATTAGAGGAAATCTTGTAGGTTAGCGCGTTGTATAAAACCctgccgcggccgctactagca
+>36-B.f [5'-3'] (Tm=69.5; dG_hairpin=-5.6)
+GGTTTTATACAACGCGCTAACCTACAAGATTTCCTCTAATcaattcgcggccgctgctag
+>37-A.r [5'-3'] (Tm=73.5; dG_hairpin=-5.2)
+AACCTAGATTACACTTTGTGGGGAGGACGCAAGAAGTGAActgccgcggccgctactagca
+>37-B.f [5'-3'] (Tm=73.5; dG_hairpin=-5.2)
+TTCACTTCTTGCGTCCTCCCCACAAAGTGTAATCTAGGTTcaattcgcggccgctgctag
+>38-A.r [5'-3'] (Tm=73.8; dG_hairpin=-5.5)
+GAAAAGATACGTGTAGTAGACGGTTGTTAGGGAGCCGAGGctgccgcggccgctactagca
+>38-B.f [5'-3'] (Tm=73.8; dG_hairpin=-5.5)
+CCTCGGCTCCCTAACAACCGTCTACTACACGTATCTTTTCcaattcgcggccgctgctag
+>39-A.r [5'-3'] (Tm=68.2; dG_hairpin=-5.7)
+CTATCTTTGACAAATCGGAGTATACAAGGTCTTTGAACAActgccgcggccgctactagca
+>39-B.f [5'-3'] (Tm=68.2; dG_hairpin=-5.7)
+TTGTTCAAAGACCTTGTATACTCCGATTTGTCAAAGATAGcaattcgcggccgctgctag
+>40-A.r [5'-3'] (Tm=75.5; dG_hairpin=-5.9)
+GACGCACGTGGATAATTGGCGAAAACGGTACAGAAGAACGctgccgcggccgctactagca
+>40-B.f [5'-3'] (Tm=75.5; dG_hairpin=-5.9)
+CGTTCTTCTGTACCGTTTTCGCCAATTATCCACGTGCGTCcaattcgcggccgctgctag
+>41-A.r [5'-3'] (Tm=68.5; dG_hairpin=-3.5)
+GTTCTTAAGATTGGAGTGAGTGAATTAAACGTGCTGATTActgccgcggccgctactagca
+>41-B.f [5'-3'] (Tm=68.5; dG_hairpin=-3.5)
+TAATCAGCACGTTTAATTCACTCACTCCAATCTTAAGAACcaattcgcggccgctgctag
+>42-A.r [5'-3'] (Tm=74.0; dG_hairpin=-4.5)
+GTCGTCCAGAGATTTTCGAGGGAGGTTAAGTCACACGATCctgccgcggccgctactagca
+>42-B.f [5'-3'] (Tm=74.0; dG_hairpin=-4.5)
+GATCGTGTGACTTAACCTCCCTCGAAAATCTCTGGACGACcaattcgcggccgctgctag
+>43-A.r [5'-3'] (Tm=68.1; dG_hairpin=-4.7)
+GGTGTATCTAGTTCAGATATTTGTGCAGATTTCGTATTGTctgccgcggccgctactagca
+>43-B.f [5'-3'] (Tm=68.1; dG_hairpin=-4.7)
+ACAATACGAAATCTGCACAAATATCTGAACTAGATACACCcaattcgcggccgctgctag
+>44-A.r [5'-3'] (Tm=69.0; dG_hairpin=-5.1)
+AGAGACTATTAGAACAAGTCGGTGTGAAAAGTTATAACGGctgccgcggccgctactagca
+>44-B.f [5'-3'] (Tm=69.0; dG_hairpin=-5.1)
+CCGTTATAACTTTTCACACCGACTTGTTCTAATAGTCTCTcaattcgcggccgctgctag
+>45-A.r [5'-3'] (Tm=67.3; dG_hairpin=-4.6)
+GATACAGTGTCGAGTAGATATTTAGAGTTCTTAATCGAGGctgccgcggccgctactagca
+>45-B.f [5'-3'] (Tm=67.3; dG_hairpin=-4.6)
+CCTCGATTAAGAACTCTAAATATCTACTCGACACTGTATCcaattcgcggccgctgctag
+>46-A.r [5'-3'] (Tm=71.3; dG_hairpin=-3.0)
+AAGATTTGGCGTGGTGGATTTGGGGCTATAGAATATACTTctgccgcggccgctactagca
+>46-B.f [5'-3'] (Tm=71.3; dG_hairpin=-3.0)
+AAGTATATTCTATAGCCCCAAATCCACCACGCCAAATCTTcaattcgcggccgctgctag
+>47-A.r [5'-3'] (Tm=71.4; dG_hairpin=-4.3)
+CGAAATTGGTAGAGGAAAAGTTTAGGGCTGGAAAGGTAACctgccgcggccgctactagca
+>47-B.f [5'-3'] (Tm=71.4; dG_hairpin=-4.3)
+GTTACCTTTCCAGCCCTAAACTTTTCCTCTACCAATTTCGcaattcgcggccgctgctag
+>48-A.r [5'-3'] (Tm=66.4; dG_hairpin=-5.6)
+TCGATACAAACCCCTAACGAATAAACAAATCTTAAGATAActgccgcggccgctactagca
+>48-B.f [5'-3'] (Tm=66.4; dG_hairpin=-5.6)
+TTATCTTAAGATTTGTTTATTCGTTAGGGGTTTGTATCGAcaattcgcggccgctgctag
+>49-A.r [5'-3'] (Tm=77.8; dG_hairpin=-5.0)
+TGGTTGGGTGGGACAGAGGGCACGTGTTAGCGGTAAGATActgccgcggccgctactagca
+>49-B.f [5'-3'] (Tm=77.8; dG_hairpin=-5.0)
+TATCTTACCGCTAACACGTGCCCTCTGTCCCACCCAACCAcaattcgcggccgctgctag
+>50-A.r [5'-3'] (Tm=71.0; dG_hairpin=-5.9)
+TATACGCTTTTGCAATCCTGGATACAGTTTGGGGATTTACctgccgcggccgctactagca
+>50-B.f [5'-3'] (Tm=71.0; dG_hairpin=-5.9)
+GTAAATCCCCAAACTGTATCCAGGATTGCAAAAGCGTATAcaattcgcggccgctgctag
+>51-A.r [5'-3'] (Tm=73.7; dG_hairpin=-4.7)
+ATTCGTTTTGTCAAAGTTTGCGTGGTCGAAGGTCGAGAAActgccgcggccgctactagca
+>51-B.f [5'-3'] (Tm=73.7; dG_hairpin=-4.7)
+TTTCTCGACCTTCGACCACGCAAACTTTGACAAAACGAATcaattcgcggccgctgctag
+>52-A.r [5'-3'] (Tm=70.7; dG_hairpin=-5.8)
+GCGATAGTATAAGAGTTTGAACGCGAGAATCCGATTAGACctgccgcggccgctactagca
+>52-B.f [5'-3'] (Tm=70.7; dG_hairpin=-5.8)
+GTCTAATCGGATTCTCGCGTTCAAACTCTTATACTATCGCcaattcgcggccgctgctag
+>53-A.r [5'-3'] (Tm=70.8; dG_hairpin=-5.4)
+TCAATAGTGTAAGGTTTACAGCTAAGGTTGTGGGACGTAActgccgcggccgctactagca
+>53-B.f [5'-3'] (Tm=70.8; dG_hairpin=-5.4)
+TTACGTCCCACAACCTTAGCTGTAAACCTTACACTATTGAcaattcgcggccgctgctag
+>54-A.r [5'-3'] (Tm=70.8; dG_hairpin=-5.9)
+TTTGCGTTAGTAAGTGGATAATATCTAGGAACGAGTGCCActgccgcggccgctactagca
+>54-B.f [5'-3'] (Tm=70.8; dG_hairpin=-5.9)
+TGGCACTCGTTCCTAGATATTATCCACTTACTAACGCAAAcaattcgcggccgctgctag
+>55-A.r [5'-3'] (Tm=72.6; dG_hairpin=-3.2)
+GGGGTAACGAGGACGGTAAGTGTTGTTTCAGATTATCGATctgccgcggccgctactagca
+>55-B.f [5'-3'] (Tm=72.6; dG_hairpin=-3.2)
+ATCGATAATCTGAAACAACACTTACCGTCCTCGTTACCCCcaattcgcggccgctgctag
+>56-A.r [5'-3'] (Tm=72.4; dG_hairpin=-5.3)
+GGCAGAAGGATTTTATTAGCGCGAAACTATTGAGAGCGAActgccgcggccgctactagca
+>56-B.f [5'-3'] (Tm=72.4; dG_hairpin=-5.3)
+TTCGCTCTCAATAGTTTCGCGCTAATAAAATCCTTCTGCCcaattcgcggccgctgctag
+>57-A.r [5'-3'] (Tm=67.5; dG_hairpin=-5.9)
+CAATCTATAGTAGTACGTCTAAGCGATTAAGGTGTGAAAActgccgcggccgctactagca
+>57-B.f [5'-3'] (Tm=67.5; dG_hairpin=-5.9)
+TTTTCACACCTTAATCGCTTAGACGTACTACTATAGATTGcaattcgcggccgctgctag
+>58-A.r [5'-3'] (Tm=67.3; dG_hairpin=-5.8)
+TATTCTAACTGAGTTCTAAGGAAGTTAAAGGGCTCTAAACctgccgcggccgctactagca
+>58-B.f [5'-3'] (Tm=67.3; dG_hairpin=-5.8)
+GTTTAGAGCCCTTTAACTTCCTTAGAACTCAGTTAGAATAcaattcgcggccgctgctag
+>59-A.r [5'-3'] (Tm=72.0; dG_hairpin=-3.9)
+AAGCGTGTCTCGGGTTATAAACGTTAAGTGTGGGGATATActgccgcggccgctactagca
+>59-B.f [5'-3'] (Tm=72.0; dG_hairpin=-3.9)
+TATATCCCCACACTTAACGTTTATAACCCGAGACACGCTTcaattcgcggccgctgctag
+>60-A.r [5'-3'] (Tm=72.6; dG_hairpin=-5.4)
+TGGGGTATTCTCGTTGGAACAGGAAGCTTTAGAATTGTGTctgccgcggccgctactagca
+>60-B.f [5'-3'] (Tm=72.6; dG_hairpin=-5.4)
+ACACAATTCTAAAGCTTCCTGTTCCAACGAGAATACCCCAcaattcgcggccgctgctag
+>61-A.r [5'-3'] (Tm=77.2; dG_hairpin=-5.7)
+TCGGAGAAGTTGGGTGCGTTCTAGTCACGGTTTGAGGAGGctgccgcggccgctactagca
+>61-B.f [5'-3'] (Tm=77.2; dG_hairpin=-5.7)
+CCTCCTCAAACCGTGACTAGAACGCACCCAACTTCTCCGAcaattcgcggccgctgctag
+>62-A.r [5'-3'] (Tm=71.7; dG_hairpin=-5.8)
+CTATTATTGGCGAAAGGTCGTATCAAGTGAAGTGGGACTTctgccgcggccgctactagca
+>62-B.f [5'-3'] (Tm=71.7; dG_hairpin=-5.8)
+AAGTCCCACTTCACTTGATACGACCTTTCGCCAATAATAGcaattcgcggccgctgctag
+>63-A.r [5'-3'] (Tm=72.8; dG_hairpin=-4.8)
+GGGTTTGAAGTTACTGGTCTCAATTTACGTCTCAGTCGGTctgccgcggccgctactagca
+>63-B.f [5'-3'] (Tm=72.8; dG_hairpin=-4.8)
+ACCGACTGAGACGTAAATTGAGACCAGTAACTTCAAACCCcaattcgcggccgctgctag
+>64-A.r [5'-3'] (Tm=72.3; dG_hairpin=-5.6)
+TGTGAACGGTTCCAAAGACCTCAGTTTCTCAGAGTTAGTTctgccgcggccgctactagca
+>64-B.f [5'-3'] (Tm=72.3; dG_hairpin=-5.6)
+AACTAACTCTGAGAAACTGAGGTCTTTGGAACCGTTCACAcaattcgcggccgctgctag
+>65-A.r [5'-3'] (Tm=69.4; dG_hairpin=-5.9)
+CGAAATTCAGTGGTAAGCAACGTGTAAAAGAAGATATCACctgccgcggccgctactagca
+>65-B.f [5'-3'] (Tm=69.4; dG_hairpin=-5.9)
+GTGATATCTTCTTTTACACGTTGCTTACCACTGAATTTCGcaattcgcggccgctgctag
+>66-A.r [5'-3'] (Tm=73.2; dG_hairpin=-4.4)
+TAGAGTCGGTGAGAACAAGTTGGGTAGTTAAGACTTGGGGctgccgcggccgctactagca
+>66-B.f [5'-3'] (Tm=73.2; dG_hairpin=-4.4)
+CCCCAAGTCTTAACTACCCAACTTGTTCTCACCGACTCTAcaattcgcggccgctgctag
+>67-A.r [5'-3'] (Tm=71.3; dG_hairpin=-5.9)
+TGTGAATATTAATAGCTTTGCTCGACCTGTTCCTTCCCTTctgccgcggccgctactagca
+>67-B.f [5'-3'] (Tm=71.3; dG_hairpin=-5.9)
+AAGGGAAGGAACAGGTCGAGCAAAGCTATTAATATTCACAcaattcgcggccgctgctag
+>68-A.r [5'-3'] (Tm=67.2; dG_hairpin=-3.4)
+TGTAGTATAGAAATCTGGATTTTAGTAGCGGGGATTAATCctgccgcggccgctactagca
+>68-B.f [5'-3'] (Tm=67.2; dG_hairpin=-3.4)
+GATTAATCCCCGCTACTAAAATCCAGATTTCTATACTACAcaattcgcggccgctgctag
+>69-A.r [5'-3'] (Tm=63.4; dG_hairpin=-2.6)
+TATAGGGAATCTTGTTATTGTAAATTTCTAGTGTCTATAGctgccgcggccgctactagca
+>69-B.f [5'-3'] (Tm=63.4; dG_hairpin=-2.6)
+CTATAGACACTAGAAATTTACAATAACAAGATTCCCTATAcaattcgcggccgctgctag

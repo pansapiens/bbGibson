@@ -1,0 +1,2 @@
+/usr/local/lib/python2.6/dist-packages/Bio/Seq.py:133: BiopythonDeprecationWarning: Accessing the .data attribute is deprecated. Please use str(my_seq) or my_seq.tostring() instead of my_seq.data.
+  "my_seq.data.", Bio.BiopythonDeprecationWarning)
