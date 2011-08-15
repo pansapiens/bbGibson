@@ -1,0 +1,141 @@
+Used this tool http://www.ebioinfogen.com/biotools/pcr-product-calculator.htm 
+for generating some PCR products in silico. Requires exact matching primers.
+######################################################################################################################
+
+# Vector prefix region (3' end of PCR product):
+
+$$catgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgcggccgcttctaga 3'
+$$gtactgtaattggatatttttatccgcatagtgctccgtcttaaagtctattttttttaggaatcgaaagcgattcctactaaagaccttaagcgccggcgaagatct 5'
+                                                                                           <--- V.r primer ---
+
+# 5' Chewback:
+
+$$catgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgcggccgcttctaga 3'
+$$gtactgtaattggatatttttatccgcatagtgctccgtcttaaagtctatttttttt 5'
+
+# Part A.f/END.r product:
+## [A.f]--part--[END.r]
+
+5' ttcgctaaggatgatttctgGAATTCGCGGCCGCTTCTAGA--part--TACTAGTAGCGGCCGCTGCAGtccggcaaaaaaacgggcaa 3'
+3' aagcgattcctactaaagacCTTAAGCGCCGGCGAAGATCT--part--ATGATCATCGCCGGCGACGTCaggccgtttttttgcccgtt 5'
+
+# Part 5' chewback:
+
+5'                                          --part--TACTAGTAGCGGCCGCTGCAGtccggcaaaaaaacgggcaa 3'
+3' aagcgattcctactaaagacCTTAAGCGCCGGCGAAGATCT--part--                                          5'
+
+
+# Vector + Part annealing:
+                                                                                                                 
+$$catgacattaacctataaaaataggcgtatcacgaggcagaatttcagataaaaaaaatccttagctttcgctaaggatgatttctggaattcgcggccgcttctaga--part--TACTAGTAGCGGCCGCTGCAGtccggcaaaaaaacgggcaa
+$$gtactgtaattggatatttttatccgcatagtgctccgtcttaaagtctatttttttt.........aagcgattcctactaaagacCTTAAGCGCCGGCGAAGATCT--part--
+
+NOTE the vector (+) strand 3' g is not accounted for in the current A.f primer ....
+
+
+
+
+#####################################################################################################################
+# Vector suffix region (5' end of PCR product):
+
+   ---- V.f primer --->
+5' tactagtagcggccgctgcagtccggcaaaaaagggcaaggtgtcaccaccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggct$$
+3' atgatcatcgccggcgacgtcaggccgttttttcccgttccacagtggtgggacgggaaaaagaaattttggcttttctaatgaagcgcaatacgtccga$$
+
+#5' Chewback:
+
+5'                                                  ccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggct$$
+3' atgatcatcgccggcgacgtcaggccgttttttcccgttccacagtggtgggacgggaaaaagaaattttggcttttctaatgaagcgcaatacgtccga$$
+
+# Vector + Part annealing:
+
+5'                                          --part--TACTAGTAGCGGCCGCTGCAGtccggcaaaaaaacgggcaa........ccctgccctttttctttaaaaccgaaaagattacttcgcgttatgcaggct$$
+3' aagcgattcctactaaagacCTTAAGCGCCGGCGAAGATCT--------atgatcatcgccggcgacgtcaggccgttttttcccgttccacagtggtgggacgggaaaaagaaattttggcttttctaatgaagcgcaatacgtccga$$
+
+
+
+######################################################################################################################
+# Connecting partA and partB:
+
+# Connector primers (~ = mismatch to mutate out restriction sites):
+                                       ~              ~
+B.f: 5'  CTATATACTATACGATAAAAAAGGCACACCcaattcgcggccgctgctag  3'
+
+A.r: 3'  acgatcatcgccggcgccgtcGATATATGATATGCTATTTTTTCCGTGTGG  5'
+          ~              ~
+
+
+# Part A PCR product:
+   ---------------- A.f --------------------
+   --vector-connector- >-- suffix' -------->       
+5' ttcgctaaggatgatttctgGAATTCGCGGCCGCTTCTAGA--partA-tgctagtagcggccgcggcagCTATATACTATACGATAAAAAAGGCACACC 3'
+3' aagcgattcctactaaagacCTTAAGCGCCGGCGAAGATCT--partA-acgatcatcgccggcgccgtcGATATATGATATGCTATTTTTTCCGTGTGG 5'
+                                                    <---- prefix ------< -------part-connector---------
+                                                    --------------------- A.r -------------------------
+
+# Part B PCR product:
+   ---------------- B.f --------------------
+   --part-connector------------- >-- prefix' ------->  
+5' CTATATACTATACGATAAAAAAGGCACACCcaattcgcggccgctgctag--partB-TACTAGTAGCGGCCGCTGCAGtccggcaaaaaaacgggcaa 3'
+3' GATATATGATATGCTATTTTTTCCGTGTGGgttaagcgccggcgacgatc--partB-ATGATCATCGCCGGCGACGTCaggccgtttttttgcccgtt 5'
+                                                             <--- suffix --------<
+                                                             ------------- END.r ---------------------
+
+# Part A 5' chewback (connector ends only, for simplicity):
+5' ttcgctaaggatgatttctgGAATTCGCGGCCGCTTCTAGA--partA-tgctagtagcggccgcggcagCTATATACTATACGATAAAAAAGGCACACC 3'
+3' aagcgattcctactaaagacCTTAAGCGCCGGCGAAGATCT--partA- 5'
+
+# Part B 5' chewback:
+5'                                                   --partB-TACTAGTAGCGGCCGCTGCAGtccggcaaaaaaacgggcaa 3'
+3' GATATATGATATGCTATTTTTTCCGTGTGGgttaagcgccggcgacgatc--partB-ATGATCATCGCCGGCGACGTCaggccgtttttttgcccgtt 5'
+
+# Annealing part A and part B
+5' ttcgctaaggatgatttctgGAATTCGCGGCCGCTTCTAGA--partA-tgctagtagcggccgcggcagCTATATACTATACGATAAAAAAGGCACACC....................--partB-TACTAGTAGCGGCCGCTGCAGtccggcaaaaaaacgggcaa 3'
+3' aagcgattcctactaaagacCTTAAGCGCCGGCGAAGATCT--partA-.....................GATATATGATATGCTATTTTTTCCGTGTGGgttaagcgccggcgacgatc--partB-ATGATCATCGCCGGCGACGTCaggccgtttttttgcccgtt 5'
+
+
+
+######################################################################################################################
+# Connecting partA and partB (different connector):
+
+Tm of connector region:  72.9066870809
+A.r: 3'  acgatcatcgccggcgccgtcGCGTGTGTTGAGTGGACTGATGACGAGAAATTATGGCTAA  5'
+B.f: 5'                       CGCACACAACTCACCTGACTACTGCTCTTTAATACCGATTcaattcgcggccgctgctag  3'
+
+[ ordered oligo A.r'[5'-3']: TTAGCCATAATTTCTCGTCATCAGTCCACTCAACACACGCgacggcgccggcgatgatcgt ]
+
+# Part A PCR product:
+   ---------------- A.f --------------------
+   --vector-connector- >-- suffix' -------->       
+5' ttcgctaaggatgatttctgGAATTCGCGGCCGCTTCTAGA--partA-tgctagtagcggccgcggcagCGCACACAACTCACCTGACTACTGCTCTTTAATACCGATT 3'
+3' aagcgattcctactaaagacCTTAAGCGCCGGCGAAGATCT--partA-acgatcatcgccggcgccgtcGCGTGTGTTGAGTGGACTGATGACGAGAAATTATGGCTAA 5'
+                                                    <---- prefix ------< -------part-connector-------------------
+                                                    --------------------- A.r -----------------------------------
+
+# Part B PCR product:
+   ---------------- B.f --------------------
+   --part-connector------------------------>-- prefix' ------->  
+5' CGCACACAACTCACCTGACTACTGCTCTTTAATACCGATTcaattcgcggccgctgctag--partB-TACTAGTAGCGGCCGCTGCAGtccggcaaaaaaacgggcaa 3'
+3' GCGTGTGTTGAGTGGACTGATGACGAGAAATTATGGCTAAgttaagcgccggcgacgatc--partB-ATGATCATCGCCGGCGACGTCaggccgtttttttgcccgtt 5'
+                                                                       <--- suffix --------<
+                                                                       ------------- END.r ---------------------
+
+
+#  Part A 5' chewback (connector ends only, for simplicity):
+   ---------------- A.f --------------------
+   --vector-connector- >-- suffix' -------->       
+5' ttcgctaaggatgatttctgGAATTCGCGGCCGCTTCTAGA--partA-tgctagtagcggccgcggcagCGCACACAACTCACCTGACTACTGCTCTTTAATACCGATT 3'
+3' aagcgattcctactaaagacCTTAAGCGCCGGCGAAGATCT--partA- 5'
+
+# Part B 5' chewback:
+   ---------------- B.f --------------------
+   --part-connector------------- >-- prefix' ------->  
+5'                                                             --partB-TACTAGTAGCGGCCGCTGCAGtccggcaaaaaaacgggcaa 3'
+3' GCGTGTGTTGAGTGGACTGATGACGAGAAATTATGGCTAAgttaagcgccggcgacgatc--partB-ATGATCATCGCCGGCGACGTCaggccgtttttttgcccgtt 5'
+                                                                       <--- suffix --------<
+                                                                       ------------- END.r ---------------------
+
+# Annealing part A and part B
+5' ttcgctaaggatgatttctgGAATTCGCGGCCGCTTCTAGA--partA-tgctagtagcggccgcggcagCGCACACAACTCACCTGACTACTGCTCTTTAATACCGATT....................--partB-TACTAGTAGCGGCCGCTGCAGtccggcaaaaaaacgggcaa 3'
+3' aagcgattcctactaaagacCTTAAGCGCCGGCGAAGATCT--partA-.....................GCGTGTGTTGAGTGGACTGATGACGAGAAATTATGGCTAAgttaagcgccggcgacgatc--partB-ATGATCATCGCCGGCGACGTCaggccgtttttttgcccgtt 5'
+

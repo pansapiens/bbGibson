@@ -1,0 +1,51 @@
+##########################################################
+# Vector connectors, from RFC57:
+A.f (amplBkBn.f)
+ttcgctaaggatgatttctgGAATTCGCGGCCGCTTCTAGA
+
+END.r (amplBkBn.r)
+ttgcccgtttttttgccggaCTGCAGCGGCCGCTACTAGT
+
+##########################################################
+# Part end primers
+
+V.f (extnd.prt.f)
+TACTAGTAGCGGCCGCTGCA
+
+V.r (extnd.prt.r)
+TCTAGAAGCGGCCGCGAAT
+
+
+##########################################################
+# Internal connectors
+
+Tm of connector region:  72.9066870809
+A.r: 3'  acgatcatcgccggcgccgtcGCGTGTGTTGAGTGGACTGATGACGAGAAATTATGGCTAA  5'
+B.f: 5'                       CGCACACAACTCACCTGACTACTGCTCTTTAATACCGATTcaattcgcggccgctgctag  3'
+dG hairpin (RNA):  -3.4
+(Primer dimer Tm: 65.1 degrees)
+
+# reverse complement  ... wrong thing to order !!
+( A.r'[5'-3']: TTAGCCATAATTTCTCGTCATCAGTCCACTCAACACACGCgacggcgccggcgatgatcgt )
+
+# 5'-3' to order (see assembly_verification.txt)
+A.r[5'-3']: AATCGGTATTAAAGAGCAGTAGTCAGGTGAGTTGTGTGCGctgccgcggccgctactagca
+
+# Truncated versions:
+# 30 bp, Connector Tm=63.2
+>A.r-30
+AAAGAGCAGTAGTCAGGTGAGTTGTGTGCGctgccgcggccgctactagca
+>B.f-30
+CGCACACAACTCACCTGACTACTGCTCTTTcaattcgcggccgctgctag
+
+# 20 bp, Connector Tm=57.6
+>A.r-20
+AGTCAGGTGAGTTGTGTGCGctgccgcggccgctactagca
+>B.f-20
+CGCACACAACTCACCTGACTcaattcgcggccgctgctag
+
+# 15 bp, Connector Tm=50.7
+>A.r-15
+GGTGAGTTGTGTGCGctgccgcggccgctactagca
+>B.f-15
+CGCACACAACTCACCcaattcgcggccgctgctag
