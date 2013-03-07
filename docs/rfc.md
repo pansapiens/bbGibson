@@ -219,45 +219,16 @@ For example, if you wanted to assemble the following composite part:
 from Biobrick compatible basic parts, into a standard vector pSB1xx, the
 following PCR amplifications would be required.
 
-** TODO: Fix this munged table **
-
 [](#)[](#)
 
-Template
-
-Forward primer
-
-Reverse primer
-
-pSB1xx
-
-V.f
-
-V.r
-
-partJ
-
-A.f
-
-A.r
-
-partK
-
-B.f
-
-B.r
-
-partL
-
-C.f
-
-C.r
-
-partM
-
-D.f
-
-END.r
+<table>
+<tr><th>Template</th><th>Forward primer</th><th>Reverse primer</th></tr>
+<tr><td>pSB1xx</td><td>V.f</td><td>V.r</td></tr>
+<tr><td>partJ</td><td>A.f</td><td>A.r</td></tr>
+<tr><td>partK</td><td>B.f</td><td>B.r</td></tr>
+<tr><td>partL</td><td>C.f</td><td>C.r</td></tr>
+<tr><td>partM</td><td>D.f</td><td>END.r</td></tr>
+</table>
 
 Primers are paired using the same letter forward and reverse primer in a
 single PCR reaction. In the final bbGibson assembly, the sequential
